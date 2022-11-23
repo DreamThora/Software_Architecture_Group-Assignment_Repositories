@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift SemiBold";
+  font-style: normal;
+}
+
+.bodyhotel1 {
+  background-attachment: fixed;
+  position: relative;
+  z-index: 8;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-sizing: inherit;
+}
+
+.bodyhotel1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  padding-left: 10%;
+  z-index: 2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.bodyhotel1 ul li {
+  float: left;
+  margin-left: 2%;
+  padding: 0.5%;
+  border-radius: 10px;
+  position: relative;
+}
+.bodyhotel1 ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  position: relative;
+  margin: 0%;
+}
+.bodyhotel1 ul li .active {
+  border: 0.001em solid rgb(225, 250, 1);
+  border-radius: 0px;
+  position: relative;
+}
+.bodyhotel1 ul li .active2 {
+  border: 0.001em solid rgb(254, 254, 254);
+  border-radius: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+.bodyhotel1 ul li a:hover:not(.active) {
+  background-color: rgb(33, 33, 33);
+}
+.bodyhotel1 ul li a:hover:not(.active2) {
+  background-color: rgb(33, 33, 33);
+}
+
+.create {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 4px;
+  padding-right: 1%;
+  position: relative;
+  width: 12%;
+}
+.sign {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 4px;
+  position: relative;
+  width: 12%;
+}
+.bodyhotel2 {
+  /* margin-top: 50px; */
+  background-color: #3f4045;
+  width: 100%;
+  height: 68px;
+  position: relative;
+  z-index: 3;
+  /* left: calc(10%); */
+  /* top: 10%; */
+  /* border-radius: 10px; */
+  /* border: 0.1em solid bisque; */
+}
+
+.bodyhotel2 .hotel4 {
+  /* left: 50%; */
+  background-attachment: fixed;
+  position: relative;
+  z-index: 8;
+  background-repeat: no-repeat;
+  width: 27%;
+  left: 13%;
+  height: 80%;
+  border-radius: 10px;
+  border: 0.001em solid rgb(254, 254, 254);
+  background-color: white;
+  /* color: black; */
+  top: 10%;
+}
+
+.bodyhotel2 .hotel2 {
+  /* left: 50%; */
+
+  background-attachment: fixed;
+  position: absolute;
+  z-index: 8;
+  background-repeat: no-repeat;
+  width: 30%;
+  left: 42%;
+  height: 80%;
+  border-radius: 10px;
+  border: 0.001em solid rgb(254, 254, 254);
+  background-color: white;
+  top: 10%;
+}
+
+.bodyhotel2 .hotel2:hover {
+  background-color: rgb(33, 33, 33);
+  transition: 0.5s;
+  border: 0.15em solid rgb(255, 255, 255);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.bodyhotel2 .hotel3 {
+  background-attachment: fixed;
+  position: absolute;
+  z-index: 8;
+  background-repeat: no-repeat;
+  width: 15%;
+  left: calc(74%);
+  height: 80%;
+  border-radius: 10px;
+  border: 0.001em solid rgb(254, 254, 254);
+  background-color: white;
+  top: 10%;
+}
+.bodyhotel2 .hotel3:hover {
+  background-color: rgb(33, 33, 33);
+  transition: 0.5s;
+  border: 0.15em solid rgb(255, 255, 255);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.bodyhotel2 .datetoday {
+  font-size: 20px;
+  position: absolute;
+  left: 20%;
+  /* color: #fff; */
+  color: black;
+  top: calc(50% - 15px);
+  text-align: center;
+}
+.bodyhotel2 .datetomorrow {
+  font-size: 20px;
+  position: absolute;
+  left: 70%;
+  /* color: #fff; */
+  top: calc(50% - 15px);
+  text-align: center;
+  color: black;
+}
+.bodyhotel2 .Line {
+  width: 0.5px;
+  height: 80%;
+  position: relative;
+  left: 50%;
+  background-color: black;
+  top: 0%;
+  /* color: black; */
+}
+.two {
+  color: black;
+}
+
+.hotelname {
+  color: black;
+  text-align: left;
+}
+.hotelchoices {
+  text-align: left;
+  margin-left: 9%;
+}
+
+
+.bodyhotel4 {
+  /* background-color: aliceblue; */
+
+  left: 13%;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  /* left: calc(10%); */
+  /* top: 21%; */
+  border-radius: 10px;
+  /* border: 0.1em solid bisque; */
+  /* float: right; */
+}
+
+.bodyhotel4 .sorthotel {
+  
+  margin-top: 2%;
+  margin-left: 25%;
+  
+  position: relative;
+  top: 0;
+
+  /* position: fixed; */
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+}
+
+.bodyhotel4 .sorthotel .sort {
+  width: 12%;
+  cursor: pointer;
+  /* background-color: #f5f5f5; */
+}
+.bodyhotel4 .sorthotel .bestmatch {
+  background-color: #4285f4;
+  color: white;
+  width: 17%;
+  cursor: pointer;
+  /* background-color: #f5f5f5; */
+}
+.bodyhotel4 .sorthotel .cheap {
+  background-color: #4285f4;
+  color: white;
+  width: 17%;
+  cursor: pointer;
+  /* background-color: #f5f5f5; */
+}
+.bodyhotel4 .sorthotel .near {
+  background-color: #4285f4;
+  color: white;
+  width: 17%;
+  cursor: pointer;
+}
+.bodyhotel4 .sorthotel .top {
+  width: 17%;
+  cursor: pointer;
+}
+
+.bodyhotel4 .sorthotel .bestmatch:hover {
+  /* color: #4285f4; */
+  color: white;
+}
+.bodyhotel4 .sorthotel .cheap:hover {
+  /* color: #4285f4; */
+  color: white;
+}
+.bodyhotel4 .sorthotel .near:hover {
+  /* color: #4285f4; */
+  color: white;
+}
+.bodyhotel4 .sorthotel .top:hover {
+  color: white;
+  /* color: #4285f4; */
+}
+
+.bestmatch p{
+  color: #f5f5f5;
+}
+.cheap p{
+  color: #f5f5f5;
+}
+.near p{
+  color: #f5f5f5;
+}
+.bodyhotel4 .info {
+  margin-top: 2%;
+  margin-left: 2%;
+  /* top: 50%; */
+  background-color: white;
+  width: 79%;
+  height: 30%;
+  /* left: 50%; */
+  border-radius: 10px;
+  border-color: #000000;
+  border-bottom: #4285f4;
+  border: 2px solid#000000;
+  position: relative;
+}
+
+.hotelImage {
+  width: 36%;
+  /* background-image: url("Picture/Imagehoteljapan.svg"); */
+  /* background-size: cover; */
+  height: 100%;
+  position: relative;
+  border-color: #4285f4;
+  border-bottom: #4285f4;
+  border: 1px solid#000000;
+  float: left;
+  border-radius: 10px;
+}
+.infoleft {
+  margin-top: 1%;
+  left: 37%;
+  width: 33%;
+  position: absolute;
+  /* float: inline-end; */
+  /* display: flex; */
+  /* display: block; */
+}
+.inforight {
+  margin-top: 1%;
+  /* top: 0%; */
+  left: 70%;
+  position: absolute;
+  float: right;
+  width: 30%;
+  /* display: block; */
+
+  /* background-color: #000000; */
+}
+.nameinfo {
+  /* background-color: #4285f4; */
+  /* position: sticky; */
+  left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-top: 5px; */
+}
+.namelocation {
+  color: #243a5b;
+  background-color: #fff;
+  /* position: relative; */
+  left: 50px;
+}
+.review {
+  left: 55%;
+  position: absolute;
+  display: inline;
+  text-align: right;
+}
+.userReview {
+  margin-top: 8%;
+  font-size: 8px;
+  left: 57%;
+  position: absolute;
+  display: inline;
+  text-align: right;
+}
+.reviewStar {
+  margin-top: 4%;
+  left: 85%;
+  /* margin-left: 5%; */
+  position: absolute;
+  display: inline;
+  text-align: right;
+}
+.price {
+  position: absolute;
+  margin-top: 35%;
+  left: 80%;
+  text-align: right;
+}
+.extra {
+  color: #34a853;
+  position: absolute;
+  font-size: 8px;
+  margin-top: 45%;
+  left: 65%;
+  text-align: right;
+}
+.selectR {
+  background-color: #253e68;
+  /* position: absolute; */
+  color: white;
+  left: 15%;
+  font-size: 16px;
+  width: 98%;
+  margin-top: 55%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: auto;
+  cursor: pointer;
+}
+
+.selectR:hover{
+ scale: 1.1;
+ transition: 0.5s;
+}
+
+.mapImage {
+  /* position: sticky; */
+  top: 2%;
+  /* background-attachment: fixed; */
+  position: relative;
+  /* z-index: 3; */
+  background-repeat: no-repeat;
+  width: 66%;
+  left: 32%;
+  height: 25%;
+}
+.searchHoteltext {
+  position: relative;
+  top: 5%;
+  left: 32%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border-color: #4285f4;
+  border-bottom: #4285f4;
+  border: 1px solid #000000;
+  width: 66%;
+}
+
+.bodyhotel1 ul li .active3 {
+  border: 0.001em solid rgb(225, 250, 1);
+  border-radius: 0px;
+  position: relative;
+}
